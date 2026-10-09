@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bruna | Portfólio</title>
+  <!-- ícone do separador -->
+  <link rel="icon" type="image/png" href="images/favicon2.png">
+  <!-- Bootstrap e ícones do Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70" tabindex="0">
+
+  <!-- menu de navegação -->
+  <nav id="navbar" class="navbar navbar-expand-lg bg-white fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="#inicio">
+        <i class="bi bi-code-slash me-2"></i>Bruna
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#menu" aria-controls="menu"
+              aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- apresentação -->
+  <header id="inicio" class="bg-primary-subtle min-vh-100 d-flex align-items-center pt-5">
+    <div class="container py-5">
+      <div class="row align-items-center g-5">
+
+        <!-- texto de apresentação -->
+        <div class="col-lg-7 text-center text-lg-start order-2 order-lg-1">
+          <span class="badge rounded-pill bg-white text-primary border border-primary-subtle mb-3 px-3 py-2">
+            <i class="bi bi-stars me-1"></i>Em formação
+          </span>
+          <h1 class="display-4 fw-bold text-dark">Olá, eu sou a <span class="text-primary">Bruna</span></h1>
+          <p class="lead text-dark my-4">
+            Desenvolvedora júnior em formação, motivada por aprender e por
+            transformar ideias em páginas web funcionais.
+          </p>
+          <div class="d-flex gap-3 justify-content-center justify-content-lg-start flex-wrap">
+            <a href="#projetos" class="btn btn-primary btn-lg rounded-pill px-4 shadow-sm">
+              <i class="bi bi-briefcase me-2"></i>Ver projetos
+            </a>
+            <a href="#contacto" class="btn btn-outline-primary btn-lg rounded-pill px-4">
+              <i class="bi bi-envelope me-2"></i>Contactar
+            </a>
+          </div>
+          <!-- As minhas redes -->
+          <div class="d-flex gap-4 justify-content-center justify-content-lg-start mt-4 fs-4">
+            <a href="https://github.com/brunajacby" target="_blank" class="link-primary" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/brunamgama" target="_blank" class="link-primary" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <!-- foto -->
+        <div class="col-lg-5 order-1 order-lg-2">
+          <div class="ratio ratio-1x1 w-50 mx-auto">
+            <img src="images/bruna2.jpeg" alt="Foto da Bruna"
+                 class="rounded-circle object-fit-cover shadow-lg border border-5 border-white">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- sobre mim -->
+  <section id="sobre" class="py-5 bg-white">
+    <div class="container py-5">
+
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Sobre mim</h2>
+        <p class="text-secondary">Quem sou e com o que trabalho</p>
+      </div>
+
+      <div class="row g-5 align-items-center">
+
+        <div class="col-lg-6">
+          <p class="lead">
+            Estou a fazer a transição para a área de desenvolvimento de software,
+            com foco em front-end e criação de interfaces intuitivas.
+          </p>
+          <p class="text-secondary">
+            Gosto de transformar ideias em projetos reais, aprender novas tecnologias
+            e trabalhar em equipa. Procuro sempre escrever código limpo e organizado.
+          </p>
+
+          <!-- formação e localização -->
+          <div class="row g-3 mt-2">
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center gap-3 p-3 bg-primary-subtle rounded-4 h-100">
+                <i class="bi bi-mortarboard-fill text-primary fs-2"></i>
+                <div>
+                  <h6 class="mb-0 fw-bold text-primary-emphasis">Formação</h6>
+                  <small class="text-secondary">Software Development</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center gap-3 p-3 bg-info-subtle rounded-4 h-100">
+                <i class="bi bi-geo-alt-fill text-info-emphasis fs-2"></i>
+                <div>
+                  <h6 class="mb-0 fw-bold text-info-emphasis">Localização</h6>
+                  <small class="text-secondary">Portugal</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Competências com barras de progresso -->
+        <div class="col-lg-6">
+          <h4 class="fw-bold mb-4">Competências</h4>
+
+          <div class="mb-3">
+            <div class="d-flex justify-content-between">
+              <span><i class="bi bi-filetype-html text-primary me-2"></i>HTML</span><span class="text-secondary">75%</span>
+            </div>
+            <div class="progress bg-primary-subtle rounded-pill" role="progressbar" aria-label="HTML" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-primary rounded-pill w-75"></div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <div class="d-flex justify-content-between">
+              <span><i class="bi bi-filetype-css text-primary me-2"></i>CSS</span><span class="text-secondary">75%</span>
+            </div>
+            <div class="progress bg-primary-subtle rounded-pill" role="progressbar" aria-label="CSS" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-primary rounded-pill w-75"></div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <div class="d-flex justify-content-between">
+              <span><i class="bi bi-bootstrap-fill text-primary me-2"></i>Bootstrap</span><span class="text-secondary">50%</span>
+            </div>
+            <div class="progress bg-primary-subtle rounded-pill" role="progressbar" aria-label="Bootstrap" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-primary rounded-pill w-50"></div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <div class="d-flex justify-content-between">
+              <span><i class="bi bi-git text-primary me-2"></i>Git & GitHub</span><span class="text-secondary">25%</span>
+            </div>
+            <div class="progress bg-primary-subtle rounded-pill" role="progressbar" aria-label="Git" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-primary rounded-pill w-25"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- projetos -->
+  <section id="projetos" class="py-5 bg-body-tertiary">
+    <div class="container py-5">
+
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Projetos</h2>
+        <p class="text-secondary">Alguns trabalhos que desenvolvi durante a formação</p>
+      </div>
+
+      <!-- 1 card telemóvel, 2 tablet, 3 computador -->
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+        <!-- Portfólio em HTML e CSS -->
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+            <div class="card-img-top bg-primary-subtle text-primary d-flex align-items-center justify-content-center py-5">
+              <i class="bi bi-filetype-html display-4"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Portfólio em HTML e CSS</h5>
+              <p class="card-text text-secondary">
+                O meu primeiro portfólio, construído do zero apenas com
+                HTML e CSS.
+              </p>
+              <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis">HTML</span>
+              <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis">CSS</span>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <a href="https://github.com/brunajacby" target="_blank" class="btn btn-sm btn-outline-primary rounded-pill px-3"><i class="bi bi-github me-1"></i>Código</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- exercícios das aulas -->
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+            <div class="card-img-top bg-success-subtle text-success d-flex align-items-center justify-content-center py-5">
+              <i class="bi bi-journal-code display-4"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Aprendizagens em Aula</h5>
+              <p class="card-text text-secondary">
+                Exercícios e pequenos projetos desenvolvidos durante a formação,
+                para praticar estrutura, estilos e layouts responsivos.
+              </p>
+              <span class="badge rounded-pill bg-success-subtle text-success-emphasis">HTML</span>
+              <span class="badge rounded-pill bg-success-subtle text-success-emphasis">CSS</span>
+              <span class="badge rounded-pill bg-success-subtle text-success-emphasis">Bootstrap</span>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <a href="https://github.com/brunajacby" target="_blank" class="btn btn-sm btn-outline-primary rounded-pill px-3"><i class="bi bi-github me-1"></i>Código</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- portfólio -->
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+            <div class="card-img-top bg-info-subtle text-info-emphasis d-flex align-items-center justify-content-center py-5">
+              <i class="bi bi-bootstrap display-4"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Portfólio Bootstrap</h5>
+              <p class="card-text text-secondary">
+                Este portfólio pessoal, criado apenas com classes e
+                componentes do Bootstrap.
+              </p>
+              <span class="badge rounded-pill bg-info-subtle text-info-emphasis">HTML</span>
+              <span class="badge rounded-pill bg-info-subtle text-info-emphasis">Bootstrap</span>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <a href="https://github.com/brunajacby" target="_blank" class="btn btn-sm btn-outline-primary rounded-pill px-3"><i class="bi bi-github me-1"></i>Código</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- contacto -->
+  <section id="contacto" class="py-5 bg-white">
+    <div class="container py-5">
+
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Vamos conversar?</h2>
+        <p class="text-secondary">Envia-me uma mensagem e respondo assim que possível</p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+
+        <!-- github e linkedIn-->
+        <div class="col-lg-4">
+          <div class="d-flex flex-column gap-3 h-100">
+            <a href="https://www.linkedin.com/in/brunamgama" target="_blank"
+               class="d-flex align-items-center gap-3 p-3 bg-primary-subtle rounded-4 text-decoration-none">
+              <i class="bi bi-linkedin text-primary fs-2"></i>
+              <div>
+                <h6 class="mb-0 fw-bold text-primary-emphasis">LinkedIn</h6>
+                <small class="text-secondary">brunamgama</small>
+              </div>
+            </a>
+            <a href="https://github.com/brunajacby" target="_blank"
+               class="d-flex align-items-center gap-3 p-3 bg-info-subtle rounded-4 text-decoration-none">
+              <i class="bi bi-github text-info-emphasis fs-2"></i>
+              <div>
+                <h6 class="mb-0 fw-bold text-info-emphasis">GitHub</h6>
+                <small class="text-secondary">brunajacby</small>
+              </div>
+            </a>
+            <div class="d-flex align-items-center gap-3 p-3 bg-success-subtle rounded-4">
+              <i class="bi bi-geo-alt-fill text-success fs-2"></i>
+              <div>
+                <h6 class="mb-0 fw-bold text-success-emphasis">Localização</h6>
+                <small class="text-secondary">Portugal</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- formulário de contacto -->
+        <div class="col-lg-6">
+          <div class="card border-0 shadow-sm rounded-4">
+            <div class="card-body p-4">
+
+              <form id="formContacto" action="#contacto">
+
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control bg-body-tertiary border-0 rounded-3" id="nome" name="nome"
+                         placeholder="O teu nome" required>
+                  <label for="nome">Nome</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control bg-body-tertiary border-0 rounded-3" id="email" name="email"
+                         placeholder="nome@exemplo.com" required>
+                  <label for="email">Email</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <select class="form-select bg-body-tertiary border-0 rounded-3" id="assunto" name="assunto" required>
+                    <option value="" selected disabled>Escolhe uma opção</option>
+                    <option value="Oportunidade de emprego">Oportunidade de emprego</option>
+                    <option value="Projeto / colaboração">Projeto / colaboração</option>
+                    <option value="Outro assunto">Outro assunto</option>
+                  </select>
+                  <label for="assunto">Assunto</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <textarea class="form-control bg-body-tertiary border-0 rounded-3 h-auto" id="mensagem" name="mensagem"
+                            placeholder="Escreve a tua mensagem" rows="5" required></textarea>
+                  <label for="mensagem">Mensagem</label>
+                </div>
+
+                <div class="form-check mb-4">
+                  <input class="form-check-input" type="checkbox" id="consentimento" required>
+                  <label class="form-check-label text-secondary small" for="consentimento">
+                    Aceito que os meus dados sejam usados apenas para responder a esta mensagem.
+                  </label>
+                </div>
+
+                <!-- só envia se todos os campos estiverem preenchidos -->
+                <button type="submit" class="btn btn-primary btn-lg rounded-pill w-100 shadow-sm">
+                  <i class="bi bi-send me-2"></i>Enviar mensagem
+                </button>
+
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-body-tertiary border-top py-4">
+    <div class="container text-center">
+      <div class="d-flex justify-content-center gap-3 fs-5 mb-2">
+        <a href="https://github.com/brunajacby" target="_blank" class="link-secondary" aria-label="GitHub"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/brunamgama" target="_blank" class="link-secondary" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <p class="small text-secondary mb-0">
+        &copy; 2026 Bruna · Desenvolvido com Bootstrap.
+      </p>
+    </div>
+  </footer>
+
+  <!-- botão para voltar ao topo -->
+  <a href="#inicio" class="btn btn-primary rounded-pill shadow position-fixed bottom-0 end-0 m-4 px-3"
+     aria-label="Voltar ao início">
+    <i class="bi bi-arrow-up me-1"></i>Início
+  </a>
+
+  <!-- JavaScript do Bootstrap (menu hambúrguer e scrollspy) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
